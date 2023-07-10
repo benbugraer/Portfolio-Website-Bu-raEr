@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Work | Buğra Er</title>
+    <link rel="stylesheet" href=".//css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/logo.png" id="logo" alt="My Profolio" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section A: Contact Form -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Here is how you can reach me</p>
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Subject"
+              name="subject"
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Email Address"
+              name="email"
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+              name="phone"
+            />
+            <textarea
+              class="text-input message-input"
+              placeholder="Enter Message"
+              name="message"
+            ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container" style="width: 100%">
+        <p>
+          Copyright &copy; 2023 All Rights Reserved by
+          <a href="https://github.com/nbugraer" target="_blank">Buğra Er</a>
+        </p>
+        <div class="social">
+          <a href="https://twitter.com/nbugraer" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/nbugraer/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com/nbugraer" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/bu%C4%9Fra-er-904749274/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCawsrd6dmGcN3X7EFW6DGAA"
+            target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+          <a href="https://www.twitch.tv/bugracode" target="_blank"
+            ><i class="fa-brands fa-twitch"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

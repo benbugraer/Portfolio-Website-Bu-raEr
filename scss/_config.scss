@@ -1,0 +1,31 @@
+// Variables
+$website-width: 1280px;
+$main-color:  #abd699;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+$html-logo-color: #e34c26;
+$react-logo-color: #61dbfb;
+$css-logo-color: #264de4;
+$js-logo-color: #e3c812;
+$sass-logo-color: #cc6699;
+$vuejs-logo-color:#41B883;
+$angular-logo-color:#a6120d;
+$twitter-color: #00acee;
+$instagram-color: #C13584;
+$youtube-color: #c4302b;
+$github-color: #171515;
+$linkedin-color: #0072b1;
+$twitch-color: #6441a5;
+$bg-img: url("../img/ny1.jpg");
+
+// Set Text Color
+
+@function set-text-color($color) {
+    @if(lightness($color) > 50){
+        @return #333;
+    }
+    @else {
+        @return #fff;
+    }
+}
