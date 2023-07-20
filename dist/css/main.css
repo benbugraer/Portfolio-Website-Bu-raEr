@@ -411,8 +411,8 @@ img {
     background: #61dbfb; }
   #about-b .progress .vue {
     background: #41B883; }
-  #about-b .progress .angular {
-    background: #a6120d; }
+  #about-b .progress .bootstrap {
+    background: #563d7c; }
 
 #about-b .fa-html5 {
   color: #e34c26; }
@@ -432,8 +432,8 @@ img {
 #about-b .fa-vuejs {
   color: #41B883; }
 
-#about-b .fa-angular {
-  color: #a6120d; }
+#about-b .fa-bootstrap {
+  color: #563d7c; }
 
 #about-c .about-logos {
   display: grid;
